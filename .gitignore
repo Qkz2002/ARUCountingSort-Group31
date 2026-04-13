@@ -1,0 +1,17 @@
+# Compiled files
+*.class
+out/
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data/Results (optional)
+data/*.csv
+results/*.csv
