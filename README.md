@@ -1,5 +1,5 @@
 ARU-Counting-Sort – Implementation and Benchmark
-This repository contains a Java implementation of **ARU-Counting-Sort**, a novel variant of Counting Sort proposed by Asad R. Usmani (2019). The algorithm reduces time complexity from O(n + k) to O(n + √k) and space complexity from 2n + k to 2n + 2√k by splitting each element into quotient and remainder based on m = ⌈√k⌉.
+This repository contains a Java implementation of ARU-Counting-Sort, a novel variant of Counting Sort proposed by Asad R. Usmani (2019). The algorithm reduces time complexity from O(n + k) to O(n + √k) and space complexity from 2n + k to 2n + 2√k by splitting each element into quotient and remainder based on m = ⌈√k⌉.
 Contents
 Benchmark.java – Contains ARUCountingSort, TraditionalCountingSort, data generation, and a full benchmarking harness.
 benchmark_results.csv – Generated after running the benchmark; stores average sorting times for each (n, k) configuration.
